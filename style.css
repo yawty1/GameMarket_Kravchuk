@@ -3,3 +3,60 @@ body {
     background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(29,105,253,1) 48%, rgba(252,69,208,1) 100%);
 }
 
+
+ .button-game {
+    position: absolute;
+    left: 1400px;
+    top: 100px;
+    padding: 25px 100px;
+    background-color: #00000028;
+    color: #fff;
+    font-size: 50px;
+    font-style:initial ;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: none;
+    width: 100px; 
+    height: 25px;
+
+
+}
+.button:hover {
+    background-color: #00b32744;
+}
+.button-github {
+    position: absolute;
+    left: 1400px;
+    top: 300px;
+    padding: 25px 100px;
+    background-color: #00000028;
+    color: #fff;
+    font-size: 50px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: none;
+    width: 100px; 
+    height: 25px;
+
+
+}
+
+.button-review {
+    position: absolute;
+    left: 1400px;
+    top: 500px;
+    padding: 25px 100px;
+    background-color: #00000028;
+    color: #fff;
+    font-size: 50px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: none;
+    width: 100px; 
+    height: 25px;
+
+
+}
