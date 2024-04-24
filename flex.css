@@ -1,0 +1,17 @@
+body{
+background-color: aliceblue;
+display:flex;
+flex-direction: column;
+gap:20px;
+
+
+
+
+
+}
+div{
+    border:1px solid #000000;
+    border-radius: 5px;
+    font-size: 50px;
+    background-color: #4b4b4b;
+}
