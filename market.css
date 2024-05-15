@@ -41,7 +41,7 @@ content {
 }
 
 .item {
-    min-width: 200px;
+    min-width: 400px;
     min-height: 400px;
     border: 1px solid lightgrey;
     border-radius: 2px;
@@ -53,6 +53,7 @@ content {
 
 .contacts p {
     margin: 3px;
+    align-items: flex-end;
 }
 
 .contacts p:first-child {
