@@ -1,15 +1,20 @@
-let itemsDiv = document.getElementById("items");
- let itemArrey = [
-    'yunf fly',
-    'gunin',
-    'jelkin'
- ];
-console.log(itemsDiv);
-if(itemsDiv){
-     for(let i=0;i<100;i++){
-        itemsDiv.innerHTML += '<div class="item"></div>'
-    }
-}
-else{
-    console.log('Блок товарів не знайдено')
+let itemsArrey = [
+    'skibidi',
+    'ohio',
+    'sigma',
+]
+let itemsDiv= document.getElementById("items")
+if (itemsDiv) {
+
+        itemsArray
+        .foreach((item, index) => {
+
+            itemsDiv.innerHTML +=
+            `
+            <div class ="item">
+                <h2>Вчитель № ${index + 1} з ${itemsArray.length}</h2>
+
+            </div>
+            `
+        })
 }
